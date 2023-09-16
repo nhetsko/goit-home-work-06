@@ -1,0 +1,105 @@
+.section-three {
+    background: var(--cloud, #F4F4FD);
+    padding: 120px 0;
+}
+
+.section-three-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 72px;
+    max-width: 320px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.section-three-item {
+    background: var(--white, #FFF);
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.title-paragraf {
+    padding: 32px 0;
+    text-align: center;
+
+}
+
+.title-two {
+    color: #2e2f42;
+    font-family: inherit;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 72px;
+
+}
+
+.section-three-text {
+    color: var(--slate, #434455);
+    text-align: center;
+    /* Body */
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+
+}
+
+.team-icon-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.team-icon-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4d5ae5;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-icon-link:hover,
+.team-icon-link:focus {
+    background-color: #404bbf;
+}
+
+.team-icon-svg {
+    fill: #f4f4fd;
+}
+
+@media screen and (min-width:768px) {
+    .section-three-list {
+        flex-direction: row;
+            flex-wrap: wrap;
+            gap:64px 24px;
+            max-width: 768px;
+            align-items: center;
+            justify-content: center;
+    }
+}
+
+/* ====DESCTOP==== */
+@media screen and (min-width:1158px) {
+    .section-three-list {
+    flex-wrap: nowrap;
+        gap: 24px;
+        max-width: 1158px;
+    }
+
+}
