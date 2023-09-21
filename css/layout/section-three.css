@@ -2,6 +2,32 @@
     background: var(--cloud, #F4F4FD);
     padding: 120px 0;
 }
+.title-section-three {
+    color: var(--navyblue, #2E2F42);
+    /* Header 3 */
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    /* 120% */
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 8px;
+
+}
+
+.section-three-text {
+    color: var(--slate, #434455);
+    text-align: center;
+    /* Body */
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.02em;
+
+}
 
 .section-three-list {
     display: flex;

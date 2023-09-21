@@ -8,7 +8,7 @@
 }
 section {
     padding-top: 96px;
-    padding-right: 96px;
+    padding-bottom: 96px;
 }
 .section-two-text {
     color: var(--slate, #434455);
